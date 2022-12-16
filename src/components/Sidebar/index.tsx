@@ -12,28 +12,28 @@ export function Sidebar() {
                 <nav>
                     <ul>
                         <li>
-                            <NavLink to="/" className='active'>
+                            <NavLink to="/" >
                                 <BatLogo />
                                 <span>Personagens</span>
                             </NavLink>
                         </li>
                         <li>
-                            <a href="#">
+                            <NavLink to="viloes">
                                 <EspantalhoLogo />
                                 <span>Vilões</span>
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a href="#">
+                            <NavLink to="historias">
                                 <HqsLogo />
-                                <span>Arcos</span>
-                            </a>
+                                <span>Historias</span>
+                            </NavLink>
                         </li>
                         <li>
-                            <a href="#">
+                            <NavLink to="contatos">
                                 <ContatosLogo />
                                 <span>Contatos</span>
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                 </nav>
