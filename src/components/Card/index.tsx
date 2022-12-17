@@ -6,6 +6,7 @@ interface CardProps{
 
 
 export function Card({data}: CardProps){
+    console.log(data)
     return(
         <>
             <Container>
