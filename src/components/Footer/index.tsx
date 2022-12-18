@@ -13,12 +13,12 @@ export function Footer(){
             <>
                 <div className='container'>
                     <p>
-                        Copyright&#169; site de fãs sem nenhuma posse ou autoridade sobre todos os personagens da DC <br /> 
+                        Copyright&#169; site de fã sem nenhuma posse ou autoridade sobre todos os personagens da DC <br /> 
                         A DC tem direito a todos personagens usados nesse site -  Desenvolvido apenas para estudos sem fins lucrativos - apenas para fins educativos 
                     </p>
                     <p>
                         <a href="https://github.com/GabrielSantanaP"> <img className='image' src={git} alt="GitHub" /> </a>
-                        <a href="https://www.linkedin.com/in/gabriel-santana-padovesi-59b1041b7/"><img className='image' src={link} alt="" /></a>
+                        <a href="https://www.linkedin.com/in/gabriel-santana-padovesi-59b1041b7/"><img className='image' src={link} alt="Linkedin" /></a>
                     </p>
                 </div>
                

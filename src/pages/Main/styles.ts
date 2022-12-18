@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   text-align: center;
-  margin-top: rem;
+  margin-top: 0rem;
 
   section{
 

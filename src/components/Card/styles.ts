@@ -90,27 +90,28 @@ export const Container = styled.div`
     
 `;
 
-//  export const SearchContainer = styled.div`
-//     display: flex;
-//     align-items: center;
-//     gap: 0.5rem;
+ export const SearchContainer = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 
-//     input{
-//         position: relative;
-//         width: 30%;
-//         height: 2rem;
-//         border: none;
-//         border-radius: 4px;
-//         padding: 0 1rem;
-//         margin-bottom: 20px;
-//     }
+    input{
+        position: relative;
+        width: 30%;
+        height: 2rem;
+        border: none;
+        border-radius: 4px;
+        padding: 0 1rem;
+        margin-bottom: 20px;
+        margin-left: 490px;
+    }
 
-//     p{
-//         svg{
-//             stroke: ${({theme}) => theme.colors.gray300};
-//             width: 1.5rem;
-//             height: 1.5rem;
-//             margin-bottom: 15px;
-//         }
-//     }
-// `;
+    p{
+        svg{
+            stroke: ${({theme}) => theme.colors.gray300};
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-bottom: 15px;
+        }
+    }
+`;

@@ -26,5 +26,34 @@ export const dataViloes = [
         Description: 'O batman que ri é a versão alternativa do vilão Bruce Wayne da Terra -22 no Dark Multiverse. Ele é um Batman que assassinou o Coringa apenas para ficar louco e adotar a personalidade sádica anarco-niilista do Coringa para si mesmo, obcecado em corromper os outros na pior versão de si mesmos. Isso o levou a massacrar os vilões, heróis e cidadãos de seu universo para apaziguar sua fome de violência.',
         image: 'https://i.redd.it/bd2wwpez1qa31.jpg'  
 
+    },
+    {
+        id: '4',
+        name: 'Pinguim - Oswald Chesterfield Cobblepot',
+        First_Appearance: 'Detective Comics #58',
+        Date: '12/1941',
+        Created: 'Bob Kane',
+        Description: 'O Pinguim é um personagem fictício, um supervilão que aparece nas histórias em quadrinhos americanas publicadas pela DC Comics. Criado por Bob Kane e Bill Finger, ele apareceu pela primeira vez em Detective Comics #58 (1941).',
+        image: 'https://pm1.narvii.com/6608/b0c4942b596d8cd9be25cbd7b8b7b2ef4fdb63a6_hq.jpg'
+
+    },
+    {
+        id: '5',
+        name: 'Harvey Dent - Duas Caras',
+        First_Appearance: 'Batman #66',
+        Date: '08/1942',
+        Created: 'Bill Finger',
+        Description: 'Harvey Dent é um personagem fictício, um supervilão que aparece nas histórias em quadrinhos americanas publicadas pela DC Comics. Criado por Bill Finger e Bob Kane, ele apareceu pela primeira vez em Batman #66 (1942).',
+        image: 'https://ovicio.com.br/wp-content/uploads/2022/02/20220204-duascaras-ovicio.jpg'
+    },
+    {
+        id: '6',
+        name: 'Ra´s Al Ghul',
+        First_Appearance: 'Batman #232',
+        Date: '1971',
+        Created: 'Denny O´Neil',
+        Description: 'Ra´s Al Ghul é um personagem fictício, um supervilão que aparece nas histórias em quadrinhos americanas publicadas pela DC Comics. Criado por Denny O´Neil e Neal Adams, ele apareceu pela primeira vez em Batman #232 (1971).',
+        image: 'https://v5j9q4b5.rocketcdn.me/wp-content/uploads/2020/07/ras-al-ghul-quem-e-historia-e-imortalidade-do-inimigo-do-batman.png'
+
     }
 ]
