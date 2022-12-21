@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom'
 import logo from '../../assets/bat.svg'
 import { Footer } from '../../components/Footer'
 
+
 export default function Main() {
   return (
     <Container>

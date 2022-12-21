@@ -10,16 +10,20 @@ interface CardProps{
    
 }
 
-
 export function Card({data}: CardProps){ 
 
     const [like, setLike] = useState('')
     const[search, setSearch] = useState('')
+    
+    const handleLike = (name: any) => {
+        setLike(name);
+        toast.success(`Você curtiu ${name}`)
+    }
 
     const filter = data.filter((item) => {
         return item.name.toLowerCase().includes(search.toLowerCase())
     })
-
+    
     return(
         <>
             <SearchContainer>
@@ -38,7 +42,7 @@ export function Card({data}: CardProps){
                             <strong>Descrição: {item.Description}</strong>
                         </div>
                         <br />
-                        <button type='button' value={like} onClick={() => {setLike(item.name), toast.success(`Você curtiu ${like}`)} } ><AiFillLike /></button>
+                        <button type='button' value={like} onClick={() => handleLike(item.name)} ><AiFillLike /></button>
                         <ToastContainer />
                     </div>
                 ))}
