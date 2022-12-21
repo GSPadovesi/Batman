@@ -1,17 +1,18 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
-    background-color: ${(props) => props.theme.colors.yellow};
+export const navBar = styled.nav`
+background-color: ${(props) => props.theme.colors.yellow};
     padding: 2rem 0;
-    /* display: flex; */
+    display: flex;
     overflow: hidden;
     flex-direction: column;
     align-items: center;
     top: 0;
+    width: 100vw;
 
     nav{
         flex: 1;
-        gap: 105rem;
+        /* gap: 105rem; */
     }
     
     li{
@@ -90,6 +91,7 @@ export const Container = styled.header`
 
     nav{
         height: 100%;
+        width: 100%;
 
         ul{
             flex-direction: row;

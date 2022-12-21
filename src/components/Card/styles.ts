@@ -114,4 +114,21 @@ export const Container = styled.div`
             margin-bottom: 15px;
         }
     }
+
+    @media (max-width: 856px){
+        input{
+            margin-left: 297px;
+        }
+    }
+
+    @media (max-width: 500px){
+        input{
+            margin-left: 0px;
+            display: none;
+        }
+
+        svg{	
+            display: none;
+        }
+    }
 `;

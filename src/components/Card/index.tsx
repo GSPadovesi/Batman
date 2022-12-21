@@ -1,4 +1,5 @@
-import { Container, SearchContainer } from './styles'
+// import { Container, SearchContainer, divTotal } from './styles'
+import * as S from './styles';
 import { AiFillLike } from 'react-icons/ai'
 import { FiSearch   } from 'react-icons/fi'
 import { ToastContainer, toast } from 'react-toastify';
@@ -14,8 +15,9 @@ export function Card({data}: CardProps){
 
     const [like, setLike] = useState('')
     const[search, setSearch] = useState('')
-    
-    const handleLike = (name: any) => {
+
+    const handleLike = (e: any, name: string) => {
+        e.preventDefault();
         setLike(name);
         toast.success(`Você curtiu ${name}`)
     }
@@ -26,11 +28,11 @@ export function Card({data}: CardProps){
     
     return(
         <>
-            <SearchContainer>
+            <S.SearchContainer>
                 <input type="search" value={search} onChange={(e) => setSearch(e.target.value)} />
                 <p><FiSearch /></p>
-            </SearchContainer>
-            <Container>
+            </S.SearchContainer>
+            <S.Container>
                 {filter.map((item) => (
                     <div key={item.id} className='data'>
                         <img src={item.image} />
@@ -42,11 +44,11 @@ export function Card({data}: CardProps){
                             <strong>Descrição: {item.Description}</strong>
                         </div>
                         <br />
-                        <button type='button' value={like} onClick={() => handleLike(item.name)} ><AiFillLike /></button>
+                        <button type='button' value={like} onClick={(e) => handleLike(e, item.name)} ><AiFillLike /></button>
                         <ToastContainer />
                     </div>
                 ))}
-            </Container>
+            </S.Container>
         </>
     )
 }

@@ -1,15 +1,13 @@
 import { NavLink } from "react-router-dom";
-import { Container } from './styles'
+import  * as S from './styles'
 import { ReactComponent as BatLogo } from '../../assets/batman.svg';
 import { ReactComponent as EspantalhoLogo } from '../../assets/espantalho.svg';
 import { ReactComponent as HqsLogo } from '../../assets/hqs.svg';
 import { ReactComponent as ContatosLogo } from '../../assets/contact.svg';
 
 export function Sidebar() {
-    return (
-        <>
-            <Container>
-                <nav>
+    return ( 
+                <S.navBar>
                     <ul>
                         <li>
                             <NavLink to="/" >
@@ -36,9 +34,7 @@ export function Sidebar() {
                             </NavLink>
                         </li>
                     </ul>
-                </nav>
-            </Container>
-        </>
+                </S.navBar>
     )
 }
 
