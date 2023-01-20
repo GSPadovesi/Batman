@@ -1,4 +1,15 @@
 # Batman
 Sites desenvolvido do batman 
 
-EM DESENVOLVIMENTO
+#Site feito por fã
+Site estilo winkipedia do batman desenvolvido por um fã
+
+#Autor
+Gabriel Santana Padovesi  
+
+#Construido com 
+- ReactJs
+
+
+## lICENÇA
+* - Este projeto foi criado apenas PARA FINS EDUCATIVOS SOB A LICENÇA MIT - Consulte o arquivo LICENSE.md para detalhes.
