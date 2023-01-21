@@ -1,7 +1,7 @@
 # Batman
 Sites desenvolvido do batman 
 
-#Site feito por fã
+#Batman Wiki
 Site estilo winkipedia do batman desenvolvido por um fã
 
 #Autor
